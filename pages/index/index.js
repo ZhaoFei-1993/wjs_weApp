@@ -4,10 +4,29 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    shopdata:[
+      {
+        //商品名
+        name:"百龄坛12年苏格兰威士忌  700ml",
+        //显示主图
+        avatar_url:'http://api.zhao-fei.cn/image/info_1.png/image/info_1.png',
+        //商品原价 画价价格
+        origin_price:300,
+        //金额
+        price:100,
+        //赠送积分
+        score:100, 
+        //商品轮播图
+        slideshow:[
+          'http://api.zhao-fei.cn/image/info_1.png/image/info_1.png',
+          'http://api.zhao-fei.cn/image/info_1.png/image/info_1.png',
+          'http://api.zhao-fei.cn/image/info_1.png/image/info_1.png'
+        ]
+      }
+    ]
   },
   //事件处理函数
   bindViewTap: function() {
