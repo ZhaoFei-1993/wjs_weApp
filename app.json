@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "wjs_WeApp",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "商城",
+        "iconPath": "assets/icon/icon_shangcheng.png",
+        "selectedIconPath": "assets/icon/icon_shangcheng2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "艺术品",
+        "iconPath": "assets/icon/icon_yishupin.png",
+        "selectedIconPath": "assets/icon/icon_yishupin.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "理财",
+        "iconPath": "assets/icon/icon_yishupin.png",
+        "selectedIconPath": "assets/icon/icon_yishupin.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "assets/icon/icon_wode.png",
+        "selectedIconPath": "assets/icon/icon_wode2.png"
+      }
+    ]
+  }
+}
